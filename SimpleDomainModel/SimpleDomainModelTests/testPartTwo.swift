@@ -43,14 +43,19 @@ class testPartTwo: XCTestCase {
     }
     
     func testProtocolAddUSDtoElse () {
-        
+        let result = tenUSD.add(fifteenCAN)
+        XCTAssert(result.amount == 27 && result.currency == "CAN")
     }
     
     func testProtocolSubtractUSDToUSD () {
-        
+        let result = tenUSD.subtract(twelveUSD)
+        XCTAssert(result.amount == 2 && result.currency == "USD")
     }
     
     func testProtocolSubtractUSDToElse () {
-        
+        let fiveCAN = Money(amount: 5, currency: "CAN")
+
+        let result = fiveCAN.subtract(fifteenEUR)
+        XCTAssert(result.amount == 9 && result.currency == "EUR")
     }
 }
