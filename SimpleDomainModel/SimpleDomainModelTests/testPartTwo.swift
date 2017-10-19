@@ -58,4 +58,13 @@ class testPartTwo: XCTestCase {
         let result = fiveCAN.subtract(fifteenEUR)
         XCTAssert(result.amount == 9 && result.currency == "EUR")
     }
+    
+    func testExtension () {
+        var ftEUR = 15.EUR;
+        var tnUSD = 10.USD;
+        XCTAssert(ftEUR.amount == fifteenEUR.amount && ftEUR.currency == fifteenEUR.currency)
+        XCTAssert(tnUSD.amount == tenUSD.amount && tnUSD.currency == tenUSD.currency)
+
+
+    }
 }
