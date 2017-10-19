@@ -39,6 +39,16 @@
                ReferencedContainer = "container:SimpleDomainModel.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE6891211CB5D90B0018C340"
+               BuildableName = "SimpleDomainModelTests.xctest"
+               BlueprintName = "SimpleDomainModelTests"
+               ReferencedContainer = "container:../../../Documents/School work/Autumn 2017/INFO 449/Assignment 5/uw-ios-simpledomainmodel/SimpleDomainModel/SimpleDomainModel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
