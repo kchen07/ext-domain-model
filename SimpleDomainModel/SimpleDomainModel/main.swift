@@ -43,7 +43,7 @@ extension Double {
     }
     
     var YEN: Money {
-        return Money(amount: Int(self), currency: "YEN")
+        return Money(amount: Int(self), currency: "CAN")
     }
 }
 
