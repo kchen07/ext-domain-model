@@ -45,4 +45,12 @@ class testPartTwo: XCTestCase {
     func testProtocolAddUSDtoElse () {
         
     }
+    
+    func testProtocolSubtractUSDToUSD () {
+        
+    }
+    
+    func testProtocolSubtractUSDToElse () {
+        
+    }
 }
